@@ -2,12 +2,6 @@ import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
 import ProjectCard from './ProjectCards'
 import Particle from '../Particle'
-import leaf from '../../Assets/Projects/leaf.png'
-import emotion from '../../Assets/Projects/emotion.png'
-import editor from '../../Assets/Projects/codeEditor.png'
-import chatify from '../../Assets/Projects/chatify.png'
-import suicide from '../../Assets/Projects/suicide.png'
-import bitsOfCode from '../../Assets/Projects/blog.png'
 
 function Projects() {
   return (
@@ -55,35 +49,33 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://res.cloudinary.com/dmy1fpyxm/image/upload/v1719835039/Screenshot_2024-07-01_172357_zsyyxg.png"
+              isBlog={false}
+              title="EasyFy"
+              description="Created the Easyfy AI Gen Chatbot during a mega workshop organized by NXT Wave. Utilized technologies including Google Colab, LangChain, Gradio, PlayHt, Hugging Face, and OpenAI to develop this advanced chatbot."
+              demoLink="https://easyfy.ccbp.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://res.cloudinary.com/dmy1fpyxm/image/upload/v1719834390/Screenshot_2024-07-01_171547_asbf9z.png"
+              isBlog={false}
+              title="Emoji Game"
+              description="Created an engaging Emoji Game with dynamic score tracking. Clicking an emoji increments the Score if it hasn't been clicked before. A 'Won Game' view appears if all emojis are clicked once, while a duplicate click triggers a 'Lose Game' view. The Top Score updates with higher scores, and a 'Play Again' button resets the Score but retains the Top Score."
+              ghLink="https://github.com/saiteja-kolagani/CP18_REACT_Emoji-Game.git"
+              demoLink="https://emojigames19.ccbp.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://res.cloudinary.com/dmy1fpyxm/image/upload/v1719833300/Screenshot_2024-07-01_165606_ue3dgg.png"
               isBlog={false}
               title="IPL Dashboard"
               description="Created an IPL Dashboard based on 2020 data, displaying scorecards for each team against their opponents. This project provides comprehensive insights into team performances, enhancing the understanding of match outcomes and team strategies."
               ghLink="https://github.com/saiteja-kolagani/ASSIGNMENT-4-IPL-Dashboard-App-REACT.git"
               demoLink="https://ipldashboards19.ccbp.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
         </Row>

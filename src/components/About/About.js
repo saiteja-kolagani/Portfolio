@@ -4,7 +4,6 @@ import Particle from '../Particle'
 import Github from './Github'
 import Techstack from './Techstack'
 import Aboutcard from './AboutCard'
-import laptopImg from '../../Assets/about.png'
 
 function About() {
   return (
@@ -30,7 +29,11 @@ function About() {
             style={{paddingTop: '120px', paddingBottom: '50px'}}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img
+              src="https://res.cloudinary.com/dmy1fpyxm/image/upload/v1719835874/Pngtree_vector_programming_structure_diagram_5400823_dij3gi.png"
+              alt="about"
+              className="img-fluid img-fluid-about"
+            />
           </Col>
         </Row>
         <h1 className="project-heading">
