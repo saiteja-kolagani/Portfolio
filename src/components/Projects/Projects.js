@@ -23,45 +23,44 @@ function Projects() {
         <Row style={{justifyContent: 'center', paddingBottom: '10px'}}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath="https://res.cloudinary.com/dmy1fpyxm/image/upload/v1719832345/Screenshot_2024-07-01_164042_cgtfyg.png"
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Never Settle"
+              description="Developed an e-commerce store that achieved a 40% increase in user engagement. Integrated essential features such as product browsing, cart management, and user authentication. Focused on user-centric design to enhance user interaction and overall experience."
+              ghLink="https://github.com/saiteja-kolagani/Never-Settle-Upgrade-Yourself-.git"
+              demoLink="https://neversettle.ccbp.tech/login"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath="https://res.cloudinary.com/dmy1fpyxm/image/upload/v1719832626/Screenshot_2024-07-01_164616_nbw3vv.png"
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Movies APP (Amazon Prime Clone)"
+              description="Developed a Prime Video clone using React, React Slick, React Popup, and React Video Player. Utilized React Slick for dynamic and responsive carousels, implemented React Popup for interactive modal dialogs, and incorporated React Video Player for seamless video streaming. Demonstrated proficiency in integrating third-party packages to enhance functionality and user experience."
+              ghLink="https://github.com/saiteja-kolagani/CP40-Prime-Video.git"
+              demoLink="https://primevideosai19.ccbp.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath="https://res.cloudinary.com/dmy1fpyxm/image/upload/v1719832852/Screenshot_2024-07-01_164818_sfywzx.png"
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="WordLight (Wikipedia Clone)"
+              description="Implemented local storage to retain and display the user's search history, enhancing personalized browsing. Integrated a theme switcher for effortless toggling between light mode and dark mode, providing a visually comfortable experience."
+              demoLink="https://wordlight.ccbp.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath="https://res.cloudinary.com/dmy1fpyxm/image/upload/v1719833300/Screenshot_2024-07-01_165606_ue3dgg.png"
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="IPL Dashboard"
+              description="Created an IPL Dashboard based on 2020 data, displaying scorecards for each team against their opponents. This project provides comprehensive insights into team performances, enhancing the understanding of match outcomes and team strategies."
+              ghLink="https://github.com/saiteja-kolagani/ASSIGNMENT-4-IPL-Dashboard-App-REACT.git"
+              demoLink="https://ipldashboards19.ccbp.tech/"
             />
           </Col>
 
